@@ -1,0 +1,95 @@
+.block {
+  
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+  
+}
+
+
+.bigblock {
+  
+    height: auto;
+    width: 25%;
+    display:inline-block;
+    
+}
+
+.floating-left {
+    
+    float: left;
+    text-align: center;
+    
+}
+
+.floating-right {
+    
+    float: right;
+    text-align: center;
+    
+}
+
+.verticalCenter {
+
+}
+
+.red {
+    background-color:red;
+}
+.blue {
+    background-color:blue;
+}
+
+.green {
+    background-color:green;
+}
+
+.yellow {
+    background-color:yellow;
+}
+
+.orange {
+    background-color:orange;
+}
+
+
+
+.clear {
+    clear: both;;
+}	
+
+.container {
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+    text-align:center;
+}
+
+.textCenter{
+    text-align: center;
+  }
+
+.buttonbg {
+    padding: 5px;
+    border : 1px solid black;
+    background: orange;
+}
+
+    
+}
+
+.noUnderline {
+    text-decoration : none;
+}
+
+a:hover, a:active {
+    color: red;
+    text-decoration : none;
+}
+
+
+
+
+
+
+
