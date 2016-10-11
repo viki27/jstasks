@@ -1,22 +1,13 @@
-function withoutVowel() {
-
-	var inputText ;
-	inputText = document.getElementById("withVowel").value;
-
-	inputText.toLowerCase();
-
-	var resultForVowel = inputText.replace(/[aeiou]/ig,'');
-
-	document.getElementById("withoutVowel").innerHTML = resultForVowel;
-
+function withoutVowel()
+{
+	var inputText=document.getElementById("withVowel").value;
+	var resultForVowel=inputText.replace(/[aeiou]/ig,'');
+	document.getElementById("withoutVowel").innerHTML=resultForVowel.bold();
 }
 
-function reverseStr (){
-	
-	var inputString ;
-	inputString = document.getElementById("originalString").value;
-	var result = inputString.split("").reverse().join('');
-	document.getElementById("reverseString").innerHTML = result;
-
-
+function reverseStr ()
+{
+	var inputString=document.getElementById("originalString").value;
+	var result=inputString.split("").reverse().join('');
+	document.getElementById("reverseString").innerHTML=result.bold();
 }

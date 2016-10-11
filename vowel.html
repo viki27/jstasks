@@ -1,61 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>JavaScript Tasks</title>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width">
-
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="css/block.css" type="text/css">
-    <script src="js/vowel.js"></script>
-
-
-</head>
-<body>
-
-
-
-<div class="container">
-	<div>
-		<p id="para1">Type Your Paragraph</p>
-		<textarea  type="text" placeholder="type here" id="withVowel" rows="5" cols="40" maxlength="100"></textarea>
+	<head>
+		<title>JavaScript Tasks</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" href="css/block.css" type="text/css">
+	    <script src="js/vowel.js" type="text/javascript"></script>
+	</head>
+	<body>
+	<div class="container">
+		<br>
+		<div>
+			<p class="bluecolor" id="para1"><b>Type Your Paragraph</b></p>
+			<textarea class="bordr" type="text" placeholder="type here..." id="withVowel" rows="5" cols="40" maxlength="100"></textarea>
+		</div>
+		<br>
+		<div>	
+			<button id="vowelButton" onclick="withoutVowel()" class="buttonbg redcolor"><b>With out vowel</b></button>
+		</div>
+		<br>
+		<div>
+			<p class="greencolor" id="withoutVowel"><b>Here is the Output</b></p>
+		</div>	
 	</div>
-	<br>
-	<div>	
-		<button  id="vowelButton" onclick="withoutVowel()" class=" buttonbg " >With out vowel</button>
+	<p class="line"></p>
+	<div class="container">
+		<div>
+			<p class="bluecolor" id="para2"><b>Type String</b></p>
+			<textarea class="bordr" type="text" placeholder="type here..." id="originalString" rows="5" cols="40" maxlength="100"></textarea> 	
+		</div>
+		<br>
+		<div>
+			<button id="reverseButton" onclick="reverseStr()" class="buttonbg redcolor"><b>Reverse</b></button>
+		</div>
+		<br>
+		<div>
+			<p class="greencolor" id="reverseString"><b>Here is the Output</b></p>
+		</div>
 	</div>
-	<br>
-	<div>
-		<p id = "withoutVowel">Here is the Output</p>
-	</div>
-	
-</div>
-<hr>
-
-
-<div class="container">
-	<div>
-		<p id="para2">Type String</p>
-		<textarea type="text" placeholder="type here" id="originalString"  rows="5" cols="40" maxlength="100"></textarea> 	
-	</div>
-	<br>
-
-	<div>
-		<button id="reverseButton" onclick="reverseStr()"  class=" buttonbg " >Reverse</button>
-	</div>
-	<br>
-	<div>
-
-		<p id = "reverseString">Here is the Output</p>
-
-	</div>
-</div>
-<hr>
-
-
-</body>
+	<p class="line"></p>
+	<a class="noUnderline" href="index.html"><b>Back</b></a>
+	</body>
 </html>

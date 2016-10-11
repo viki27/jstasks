@@ -1,47 +1,47 @@
 .block {
-  
-    height: 100px;
-    width: 100px;
+    height:100px;
+    width:100px;
     display:inline-block;
-  
 }
 
-
 .bigblock {
-  
-    height: auto;
-    width: 25%;
+    height:200px;
+    width:25%;
     display:inline-block;
-    
 }
 
 .floating-left {
-    
-    float: left;
-    text-align: center;
-    
+    float:left;
+    text-align:center;
 }
 
-.floating-right {
-    
-    float: right;
-    text-align: center;
-    
-}
-
-.verticalCenter {
-
+.floating-right {    
+    float:right;
+    text-align:center;
 }
 
 .red {
     background-color:red;
 }
+
+.redcolor {
+    color:red;
+}
+
 .blue {
     background-color:blue;
 }
 
+.bluecolor {
+    color:blue;
+}
+
 .green {
     background-color:green;
+}
+
+.greencolor {
+    color:green;
 }
 
 .yellow {
@@ -52,44 +52,70 @@
     background-color:orange;
 }
 
-
-
 .clear {
-    clear: both;;
+    clear:both;
 }	
 
 .container {
-    width: 70%;
-    margin: 0px auto;
-    position: relative;
+    width:70%;
+    margin:0px auto;
+    position:relative;
     text-align:center;
 }
 
-.textCenter{
-    text-align: center;
-  }
-
-.buttonbg {
-    padding: 5px;
-    border : 1px solid black;
-    background: orange;
+.textCenter {    
+    text-align:center;
+    vertical-align: middle;
+    line-height: 200px;  
 }
 
-    
+.buttonbg {
+    text-align: center;
+    border:3px solid #f44336;
+    background:white;
+}
+
+.buttonbg:hover {
+    background-color: #f44336;
+    color: white;
 }
 
 .noUnderline {
-    text-decoration : none;
+    text-decoration:none;
 }
 
 a:hover, a:active {
-    color: red;
-    text-decoration : none;
+    color:red;
+    text-decoration:none;
 }
 
+.line {
+    display:block;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    border-bottom: 1px inset black;
+}
 
+.centerboxdisplay {
+    display:table-header-group;
+}
 
+.okbuttondisplay {
+    position:absolute;
+    bottom:10px;
+}
 
+.align {
+    display:table-cell;
+    vertical-align: bottom;
+}
 
+.border {
+    border:3px solid #4CAF50;
+}
 
-
+.bordr {
+    border:3px solid red;
+}
