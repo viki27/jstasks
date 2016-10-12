@@ -1,3 +1,10 @@
+.container {
+    width:70%;
+    margin:0px auto;
+    position:relative;
+    text-align:center;
+}
+
 .block {
     height:100px;
     width:100px;
@@ -5,7 +12,9 @@
 }
 
 .bigblock {
-    height:200px;
+    min-height:200px;
+    max-height: inherit;
+    height: inherit;
     width:25%;
     display:inline-block;
 }
@@ -56,13 +65,6 @@
     clear:both;
 }	
 
-.container {
-    width:70%;
-    margin:0px auto;
-    position:relative;
-    text-align:center;
-}
-
 .textCenter {    
     text-align:center;
     vertical-align: middle;
@@ -84,6 +86,13 @@
     text-decoration:none;
 }
 
+.conteiner {
+    width:70%;
+    margin:0px auto;
+    position:relative;
+    text-align:center;
+}
+
 a:hover, a:active {
     color:red;
     text-decoration:none;
@@ -103,7 +112,6 @@ a:hover, a:active {
 }
 
 .okbuttondisplay {
-    position:absolute;
     bottom:10px;
 }
 
@@ -118,4 +126,41 @@ a:hover, a:active {
 
 .bordr {
     border:3px solid red;
+}
+
+.divtable {
+    display: table;
+    margin: 0 auto;
+}
+
+.divrowtext {
+    display: table-row;
+    text-align: center;
+    
+}
+
+.divrowbutton {
+    display: table-row;
+    text-align: center;
+}
+
+.divtext {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.divtextcenter {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.divbutton {
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 5px;
+}
+
+.divhorizontal {
+    display: inline-block;
 }
