@@ -1,7 +1,12 @@
 .container {
     width:70%;
     margin:0px auto;
-    position:relative;
+    text-align:center;
+}
+
+.conteiner {
+    width:70%;
+    margin:0px auto;
     text-align:center;
 }
 
@@ -12,9 +17,7 @@
 }
 
 .bigblock {
-    min-height:200px;
-    max-height: inherit;
-    height: inherit;
+    height: 200px;
     width:25%;
     display:inline-block;
 }
@@ -65,12 +68,6 @@
     clear:both;
 }	
 
-.textCenter {    
-    text-align:center;
-    vertical-align: middle;
-    line-height: 200px;  
-}
-
 .buttonbg {
     text-align: center;
     border:3px solid #f44336;
@@ -84,13 +81,6 @@
 
 .noUnderline {
     text-decoration:none;
-}
-
-.conteiner {
-    width:70%;
-    margin:0px auto;
-    position:relative;
-    text-align:center;
 }
 
 a:hover, a:active {
@@ -107,19 +97,6 @@ a:hover, a:active {
     border-bottom: 1px inset black;
 }
 
-.centerboxdisplay {
-    display:table-header-group;
-}
-
-.okbuttondisplay {
-    bottom:10px;
-}
-
-.align {
-    display:table-cell;
-    vertical-align: bottom;
-}
-
 .border {
     border:3px solid #4CAF50;
 }
@@ -130,7 +107,7 @@ a:hover, a:active {
 
 .divtable {
     display: table;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .divrowtext {
@@ -163,4 +140,18 @@ a:hover, a:active {
 
 .divhorizontal {
     display: inline-block;
+}
+
+.centervertical {
+    display:table; 
+    width:100%;
+}
+
+.centerverticalchild {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.textcenter {
+    text-align: center;
 }
